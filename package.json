@@ -1,0 +1,29 @@
+{
+  "name": "exress-and-mongodb-rest-api",
+  "version": "1.0.0",
+  "description": "Learn The MERN Stack - Express &amp; MongoDB Rest API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasindu-dil/Exress-and-MongoDB-Rest-API.git"
+  },
+  "author": "dilshanpasindu357@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pasindu-dil/Exress-and-MongoDB-Rest-API/issues"
+  },
+  "homepage": "https://github.com/pasindu-dil/Exress-and-MongoDB-Rest-API#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
