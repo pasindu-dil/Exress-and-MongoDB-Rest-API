@@ -8,13 +8,6 @@ const getGoals = asyncHandler(async (req, res) => {
     res.status(200).json(goals)
 })
 
-const getGoalById = asyncHandler(async (req, res) => {
-    const id = req.params.id
-    const goals = await Goal.findById(id)
-
-    res.status(200).json(goals)
-})
-
 const setGoals = asyncHandler(async (req, res) => {
     if (!req.body.text) {
         throw new Error("Please require id field...!")
@@ -59,6 +52,5 @@ module.exports = {
     getGoals,
     setGoals,
     updateGoals,
-    deleteGoals,
-    getGoalById
+    deleteGoals
 }
